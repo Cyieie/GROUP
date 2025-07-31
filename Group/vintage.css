@@ -1,0 +1,604 @@
+/* VINTAGE THEME STYLES */
+
+.vintage {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f5f5dc;
+  color: #8b5e3c;
+}
+
+.vintage .container {
+  width: 100%;
+}
+
+.vintage .header {
+  background-color: #cc5500;
+  color: #f5f5dc;
+  padding: 3px;
+  text-align: center;
+}
+
+.vintage .logo {
+  font-family: 'Rye', serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+.vintage .nav {
+  padding: 4px 0;
+}
+
+.vintage .nav a {
+  color: #f5f5dc;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.vintage .nav a:hover {
+  color: #e1b12c;
+}
+
+.vintage .hero {
+  background: url('https://img.pikbest.com/backgrounds/20250130/vintage-travel-background-with-map-and-old-paper-travel-concept_11473995.jpg!bwr800') no-repeat center center;
+  background-size: cover;
+  color: #fffbe6;
+  text-shadow: 2px 2px 8px #333, 0 0 10px #000;
+  text-align: center;
+  padding: 100px 20px 120px;
+}
+
+.vintage .hero h2 {
+  font-family: 'Rye', serif;
+  font-size: 32px;
+}
+
+.vintage .hero p {
+  font-size: 18px;
+}
+
+.vintage .button {
+  background-color: #708238;
+  color: #f5f5dc;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.vintage .button:hover {
+  background-color: #e1b12c;
+  color: #8b5e3c;
+}
+
+.vintage .section-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.vintage .tours {
+  text-align: center;
+  padding: 20px;
+}
+
+.vintage .tour-box {
+  display: inline-block;
+  width: 280px;
+  margin: 15px;
+  background-color: white;
+  border: 1px solid #8b5e3c;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.vintage .tour-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.vintage .tour-box h4 {
+  font-family: 'Rye', serif;
+  margin: 10px 0 5px;
+}
+
+.vintage .price {
+  font-family: 'Special Elite', monospace;
+  color: #cc5500;
+  margin-bottom: 10px;
+}
+
+.vintage .footer {
+  background-color: #708238;
+  color: #f5f5dc;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+/* SPOOKY THEME STYLES */
+.spookyHomepage{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.holiday-navbar {
+    padding: 0;
+    margin: 0;
+    background-color: darkorchid;
+}
+
+.holiday-navbar-brand {
+    text-decoration: none;
+    font-family: "Creepster", serif;
+}
+
+.holiday-navbar-nav {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.holiday-navbar-nav li {
+    list-style-type: none;
+    font-family: "Creepster", serif;
+    font-size: larger;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.holiday-nav-link {
+    text-decoration: none;
+    color: white !important;
+    font-size: large;
+}
+
+.holiday-nav-link:hover, .holiday-nav-link.active {
+    color: #fff018 !important;
+}
+.holiday-header{
+    text-align: center;
+    padding: 100px;
+    background-color: black;
+    background-image: url("https://slidechef.net/wp-content/uploads/2023/10/Spooky-background-768x432.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    height: 100vh;
+}
+.holiday-header h1{
+    font-family: "Creepster", serif;
+    font-size: 75px;
+}
+.holiday-header a{
+    background-color: goldenrod;
+    border-radius: 200px;
+    padding:15px;
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Creepster", serif;
+    font-size: 18px;
+}
+
+div h4{
+font-family: "Creepster", serif;
+color: goldenrod;
+}
+.holiday-header a:hover{
+    background-color: white;
+    color: goldenrod;
+}
+
+
+.holiday-cards-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.holiday-container-card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.holiday-container-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #e6b73e;
+}
+
+.holiday-container-card p {
+    flex-grow: 1;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+.book-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: auto;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+.book-button{
+    background-color: goldenrod;
+    border-radius: 200px;
+    padding:10px;
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Creepster", serif;
+    font-size: 18px;    
+}
+.book-button:hover{
+    background-color: #fff018;
+    color: goldenrod;
+}
+.holiday-go-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    background-color: #f7c948;
+    color: #000;
+    font-size: 18px;
+    padding: 12px 16px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.holiday-go-top-btn:hover {
+    background-color: #e6b73e;
+    color: #000;
+}
+.footer{
+    background-color: darkorchid;
+}
+
+
+/* MODERN THEME STYLES */
+.modernHomepage {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  padding-top: 0px; 
+  color: #333;
+}/* MODERN THEME STYLES */
+
+.modernHomepage .navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+}
+
+.modernHomepage .navbar-brand {
+  font-weight: bold;
+  color: #f7c948;
+  font-size: 1.8rem;
+}
+
+.modernHomepage .nav-link {
+  margin-right: 20px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.modernHomepage .nav-link:hover {
+  color: #f7c948;
+}
+
+/* HEADER SECTION */
+.modernHomepage .heading {
+  background-image: url('https://images.travelandleisureasia.com/wp-content/uploads/sites/5/2024/03/18192558/venice-1.jpeg?tr=w-1366,f-jpg,pr-trueImages/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.modernHomepage .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modernHomepage .heading-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.modernHomepage .heading h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modernHomepage .heading p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.modernHomepage .btn-cta {
+  background-color: #f7c948;
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.modernHomepage .btn-cta:hover {
+  background-color: #e6b73e;
+}
+
+/* EXPLORE SECTION */
+.modernHomepage #explore {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.modernHomepage .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+.modernHomepage .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modernHomepage .col-md-4 {
+  display: flex;
+}
+
+.modernHomepage .destination-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.modernHomepage .destination-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modernHomepage .destination-card h4 {
+  color: #e6b73e;
+}
+
+.modernHomepage .destination-card p {
+  color: #555;
+}
+
+.modernHomepage img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+.modernHomepage footer {
+  background-color: #000;
+  font-size: 0.9rem;
+  color: white;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+.modernHomepage .btn-social {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s;
+}
+
+.modernHomepage .btn-social:hover {
+  color: #f7c948;
+}
+
+/* GO TO TOP BUTTON */
+.modernHomepage .go-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  background-color: #f7c948;
+  color: #000;
+  font-size: 18px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.modernHomepage .go-top-btn:hover {
+  background-color: #e6b73e;
+  color: #000;
+}
+
+@font-face {
+  font-family: 'Blood Crow Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Blood Crow Condensed'), url('bloodcrowc.woff') format('woff');
+}
+
+.ptt-navbar {
+  background: linear-gradient(to right, #d71313, #700000);
+  padding: 1rem 0;
+}
+.ptt-navbar-brand {
+  font-weight: bold;
+  color: white;
+  font-size: 1.9rem;
+  font-family: 'Blood Crow Condensed',Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 5px black;
+}
+.ptt-navbar-brand:hover {
+  color: #e30712;
+}
+.ptt-nav-link {
+  color: #f1f1f1;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+.ptt-nav-link:hover {
+  color: #e30712;
+}
+
+.ptt-hero {
+  background-image: url('https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-6/525444188_2959265040910634_7054327937658409950_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEDYc8CMmLRJBXerdJc4uHuMSqUXQitVE4xKpRdCK1UToKqH9eQhe8wdc3pF2IKFWiBE1Z20R3_Y3UPWsTY3ewj&_nc_ohc=zh0w51KRlV8Q7kNvwGJdVDv&_nc_oc=AdkgRVAwKAugYIN3hr7wzGDnFicpVeDfTrwcWDF_4S-fK09y4XwqWPN6QqFhoYg84jM&_nc_zt=23&_nc_ht=scontent-mnl3-1.xx&_nc_gid=Hau-Ptu-7GbSDvzdkTmqyQ&oh=00_AfRMKXoJ9XqiniT3JGfdkH0whApFcgucqAFTvCu-m3fm4Q&oe=6890E294');
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.ptt-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ptt-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+.ptt-hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Blood Crow Condensed';
+  text-shadow: 0px 0px 5px black;
+  color: white;
+}
+.ptt-hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: white;
+}
+.ptt-btn-cta {
+  background-color: #e30712;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.ptt-btn-cta:hover {
+  background-color: darkred;
+}
+
+.ptt-section-title {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+  color: #222;
+  font-family: 'Blood Crow Condensed', Georgia, 'Times New Roman', Times, serif;
+}
+
+.ptt-card-experience, .ptt-adventure-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.ptt-card-experience:hover, .ptt-adventure-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.ptt-card-experience h4, .ptt-adventure-card h4 {
+  color: #e30712;
+}
+.ptt-card-experience p, .ptt-adventure-card p {
+  color: #555;
+}
+
+.ptt-footer {
+  background: #1b1b1b;
+  color: #f1f1f1;
+  padding: 1rem 0;
+}
+.ptt-btn-social {
+  background: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: transform 0.3s, color 0.3s;
+}
+.ptt-btn-social:hover {
+  transform: scale(1.2);
+  color: #e30712;
+}
+
+.ptt-go-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  background-color: #e30712;
+  color: white;
+  font-size: 18px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.ptt-go-top-btn:hover {
+  background-color: #f4a734;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
